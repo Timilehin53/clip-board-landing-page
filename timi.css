@@ -3,5 +3,77 @@
     padding: 0%;
 }
 body{
-    
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vh;
+}
+.container{
+    background-image: url(images/bg-header-desktop.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.ios{
+    width: 130px;
+    height: 37px;
+    border-radius: 50px;
+    background-color:  hsl(171, 66%, 44%);
+    color: white;
+}
+.mac{
+    width: 130px;
+    height: 37px;
+    border-radius: 50px;
+    background-color:  hsl(233, 100%, 69%);
+    color: white;
+}
+.load{
+    margin: 30px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.computer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.keep{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.quick{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.access{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.device{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo1{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center; 
 }

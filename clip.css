@@ -1,0 +1,224 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vh;
+}
+header{
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logo1{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center; 
+   margin: 28px;
+}
+.ios{
+    width: 130px;
+    height: 37px;
+    border-radius: 50px;
+    background-color:  hsl(171, 66%, 44%);
+    color: white;
+}
+.mac{
+    width: 130px;
+    height: 37px;
+    border-radius: 50px;
+    background-color:  hsl(233, 100%, 69%);
+    color: white;
+}
+.history{
+    color: black;
+    margin-bottom: 20px;
+}
+.track{
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 20px;
+}
+main{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.keep{
+    color: black;
+    margin-top: 40px;
+}
+.stores{
+    color: hsl(201, 11%, 66%);
+    margin-top: 15px;
+}
+.computer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+.quick{
+    margin-left: 30px;
+    margin-top: 29px;
+}
+.search{
+    margin-left: 40px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sync{
+    margin-left: 40px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.complete{
+    margin-left: 40px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.more{
+    margin-right: 165px;
+}
+.web{
+    color: hsl(201, 11%, 66%);
+}
+.save{
+    color: hsl(201, 11%, 66%);
+}
+.you{
+    color: hsl(201, 11%, 66%);
+}
+.access{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.few{
+   margin-top: 15px; 
+   color: hsl(201, 11%, 66%);
+}
+.plate{
+   margin-top: 60px;  
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.pics{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    column-gap: 70px;
+}
+.together{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    column-gap: 70px;
+}
+.your{
+    margin-top: 70px;
+}
+.bod{
+    margin-top: 15px;
+    /* width: 450px; */
+    color: hsl(201, 11%, 66%);
+}
+.charge{
+    margin-top: 15px;
+    color:  hsl(201, 11%, 66%);
+}
+.ensure{
+    color: hsl(201, 11%, 66%);;
+}
+.ios{
+    width: 130px;
+    height: 37px;
+    border-radius: 50px;
+    background-color:  hsl(171, 66%, 44%);
+    color: white;
+    margin-top: 40px;
+}
+.mac{
+    width: 130px;
+    height: 37px;
+    border-radius: 50px;
+    background-color:  hsl(233, 100%, 69%);
+    color: white;
+    margin-top: 40px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(210, 21%, 95%);
+    width: 100%;
+    height: 100px;
+    margin-top: 70px;
+}
+.dth{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    right: 480px;
+    top: 59px;
+}
+.faq{
+    position: relative;
+    right: 280px;
+    top: 19px;
+    color:  hsl(201, 11%, 66%);
+}
+.priv{
+    position: relative;
+    right: 80px;
+    top: -18px;
+    color:  hsl(201, 11%, 66%);
+}
+.install{
+    position: relative;
+    right: -120px;
+    bottom: 54px;
+    color:  hsl(201, 11%, 66%);
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    right: -390px;
+    bottom: 55px;
+}
